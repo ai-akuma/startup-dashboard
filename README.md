@@ -1,4 +1,5 @@
 # Sakai
+<img width="1680" alt="Screen Shot 2023-07-09 at 1 27 03 PM" src="https://github.com/ai-akuma/startup-dashboard/assets/7444521/86fd02a8-bcf1-4d8e-bdf5-1e1c5616f194">
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
