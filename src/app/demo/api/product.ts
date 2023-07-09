@@ -8,6 +8,7 @@ export interface Product {
     name?: string;
     description?: string;
     price?: number;
+    revenue?: number;
     quantity?: number;
     inventoryStatus?: InventoryStatus;
     category?: string;

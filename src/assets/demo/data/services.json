@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "id": "1000",
+            "code": "f230fh0g3",
+            "name": "Estimate Management",
+            "description": "Efficiently manage construction project estimates with advanced tracking and collaboration tools.",
+            "image": "bamboo-watch.jpg",
+            "price": 6500,
+						"revenue": 40000,
+            "category": "443 Railroad St, DC",
+            "quantity": 24,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4.5
+        },
+        {
+            "id": "1001",
+            "code": "nvklal433",
+            "name": "Blueprint Annotation",
+            "description": "Annotate blueprints and construction drawings digitally, streamlining the review and revision process.",
+            "image": "black-watch.jpg",
+            "price": 9900,
+            "revenue": 40000,
+            "category": "67 Northwestern Ave, DC",
+            "quantity": 61,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4.2
+        },
+        {
+            "id": "1002",
+            "code": "zz21cz3c1",
+            "name": "Equipment Tracking",
+            "description": "Track the location, usage, and maintenance history of construction equipment in real-time.",
+            "image": "blue-band.jpg",
+            "price": 14900,
+            "revenue": 40000,
+            "category": "45 State St, DC",
+            "quantity": 2,
+            "inventoryStatus": "LOWSTOCK",
+            "rating": 4.7
+        }
+    ]
+}

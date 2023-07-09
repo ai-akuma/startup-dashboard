@@ -8,7 +8,7 @@ export class ProductService {
     constructor(private http: HttpClient) { }
 
     getProductsSmall() {
-        return this.http.get<any>('assets/demo/data/products-small.json')
+        return this.http.get<any>('assets/demo/data/services.json')
             .toPromise()
             .then(res => res.data as Product[])
             .then(data => data);
@@ -22,7 +22,7 @@ export class ProductService {
     }
 
     getProductsMixed() {
-        return this.http.get<any>('assets/demo/data/products-mixed.json')
+        return this.http.get<any>('assets/demo/data/services-drafts.json')
             .toPromise()
             .then(res => res.data as Product[])
             .then(data => data);

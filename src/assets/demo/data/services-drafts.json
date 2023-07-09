@@ -1,0 +1,121 @@
+{
+    "data": [
+        {
+            "id": "1000",
+            "code": "f230fh0g3",
+            "name": "Estimate Management",
+            "description": "Efficiently manage construction project estimates with advanced tracking and collaboration tools.",
+            "image": "bamboo-watch.jpg",
+            "price": 6500,
+            "revenue": 40000,
+            "category": "443 Railroad St, DC",
+            "quantity": 24,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4.5
+        },
+        {
+            "id": "1001",
+            "code": "nvklal433",
+            "name": "Blueprint Annotation",
+            "description": "Annotate blueprints and construction drawings digitally, streamlining the review and revision process.",
+            "image": "black-watch.jpg",
+            "price": 9900,
+            "revenue": 40000,
+            "category": "67 Northwestern Ave, DC",
+            "quantity": 61,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4.2
+        },
+        {
+            "id": "1002",
+            "code": "zz21cz3c1",
+            "name": "Equipment Tracking",
+            "description": "Track the location, usage, and maintenance history of construction equipment in real-time.",
+            "image": "blue-band.jpg",
+            "price": 14900,
+            "revenue": 40000,
+            "category": "45 State St, DC",
+            "quantity": 2,
+            "inventoryStatus": "LOWSTOCK",
+            "rating": 4.7
+        },
+        {
+            "id": "1003",
+            "code": "244wgerg2",
+            "name": "Safety Compliance",
+            "description": "Ensure compliance with construction safety regulations and streamline incident reporting.",
+            "image": "blue-t-shirt.jpg",
+            "price": 7900,
+            "revenue": 40000,
+            "category": "986 Prototype Ave, DC",
+            "quantity": 25,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4.0
+        },
+        {
+            "id": "1004",
+            "code": "h456wer53",
+            "name": "Project Collaboration",
+            "description": "Collaborate seamlessly with project stakeholders, share updates, and manage tasks in one central platform.",
+            "image": "bracelet.jpg",
+            "price": 19900,
+            "revenue": 40000,
+            "category": "332 South Main St, DC",
+            "quantity": 73,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4.6
+        },
+        {
+            "id": "1005",
+            "code": "av2231fwg",
+            "name": "Material Inventory",
+            "description": "Track construction materials, manage inventory levels, and streamline procurement processes.",
+            "image": "brown-purse.jpg",
+            "price": 12900,
+            "revenue": 40000,
+            "category": "009 Main St, DC",
+            "quantity": 0,
+            "inventoryStatus": "OUTOFSTOCK",
+            "rating": 4.3
+        },
+        {
+            "id": "1006",
+            "code": "bib36pfvm",
+            "name": "Punch List Management",
+            "description": "Efficiently create and manage punch lists for construction projects, ensuring timely completion of tasks.",
+            "image": "chakra-bracelet.jpg",
+            "price": 7900,
+            "revenue": 40000,
+            "category": "786 Main St, DC",
+            "quantity": 5,
+            "inventoryStatus": "LOWSTOCK",
+            "rating": 4.1
+        },
+        {
+            "id": "1007",
+            "code": "mbvjkgip5",
+            "name": "Progress Tracking",
+            "description": "Track project progress in real-time, monitor milestones, and generate reports for stakeholders.",
+            "image": "galaxy-earrings.jpg",
+            "price": 14900,
+            "revenue": 40000,
+            "category": "67 Northwestern Ave, DC",
+            "quantity": 23,
+            "inventoryStatus": "INSTOCK",
+            "rating": 4.8
+        },
+        {
+            "id": "1008",
+            "code": "vbb124btr",
+            "name": "Document Management",
+            "description": "Effortlessly organize and manage construction project documents, contracts, and drawings.",
+            "image": "game-controller.jpg",
+            "price": 8900,
+            "revenue": 40000,
+            "category": "123 Thomas Lane, DC",
+            "quantity": 2,
+            "inventoryStatus": "LOWSTOCK",
+            "rating": 4.4
+        }
+    ]
+}
