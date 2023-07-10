@@ -14,6 +14,8 @@ import { RatingModule } from 'primeng/rating';
 import { DropdownModule } from 'primeng/dropdown';
 import { SidebarModule } from 'primeng/sidebar';
 import { CalendarbarComponent } from './calendarbar/calendarbar.component';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 
 @NgModule({
     imports: [
@@ -29,8 +31,13 @@ import { CalendarbarComponent } from './calendarbar/calendarbar.component';
         DataViewModule,
         RatingModule,
         DropdownModule,
-        SidebarModule
+        SidebarModule,
+        FormsModule,
+        CalendarModule.forRoot({
+            provide: DateAdapter,
+            useFactory: adapterFactory,
+        }),
     ],
-    declarations: [DashboardComponent, CalendarbarComponent]
+    declarations: [DashboardComponent, CalendarbarComponent],
 })
-export class DashboardModule { }
+export class DashboardModule {}
