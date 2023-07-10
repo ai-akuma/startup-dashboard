@@ -27,6 +27,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     chartOptions: any;
 
     subscription!: Subscription;
+    sidebarVisible: boolean = false;
 
     constructor(
         private productService: ProductService,

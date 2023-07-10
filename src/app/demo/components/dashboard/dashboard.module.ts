@@ -12,6 +12,8 @@ import { DashboardsRoutingModule } from './dashboard-routing.module';
 import { DataViewModule } from 'primeng/dataview';
 import { RatingModule } from 'primeng/rating';
 import { DropdownModule } from 'primeng/dropdown';
+import { SidebarModule } from 'primeng/sidebar';
+import { CalendarbarComponent } from './calendarbar/calendarbar.component';
 
 @NgModule({
     imports: [
@@ -26,8 +28,9 @@ import { DropdownModule } from 'primeng/dropdown';
         DashboardsRoutingModule,
         DataViewModule,
         RatingModule,
-        DropdownModule
+        DropdownModule,
+        SidebarModule
     ],
-    declarations: [DashboardComponent]
+    declarations: [DashboardComponent, CalendarbarComponent]
 })
 export class DashboardModule { }
