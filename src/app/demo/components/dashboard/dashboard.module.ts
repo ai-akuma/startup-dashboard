@@ -9,6 +9,13 @@ import { ButtonModule } from 'primeng/button';
 import { StyleClassModule } from 'primeng/styleclass';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { DashboardsRoutingModule } from './dashboard-routing.module';
+import { DataViewModule } from 'primeng/dataview';
+import { RatingModule } from 'primeng/rating';
+import { DropdownModule } from 'primeng/dropdown';
+import { SidebarModule } from 'primeng/sidebar';
+import { CalendarbarComponent } from './calendarbar/calendarbar.component';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 
 @NgModule({
     imports: [
@@ -20,8 +27,17 @@ import { DashboardsRoutingModule } from './dashboard-routing.module';
         StyleClassModule,
         PanelMenuModule,
         ButtonModule,
-        DashboardsRoutingModule
+        DashboardsRoutingModule,
+        DataViewModule,
+        RatingModule,
+        DropdownModule,
+        SidebarModule,
+        FormsModule,
+        CalendarModule.forRoot({
+            provide: DateAdapter,
+            useFactory: adapterFactory,
+        }),
     ],
-    declarations: [DashboardComponent]
+    declarations: [DashboardComponent, CalendarbarComponent],
 })
-export class DashboardModule { }
+export class DashboardModule {}
